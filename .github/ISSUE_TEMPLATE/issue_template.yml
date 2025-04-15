@@ -8,11 +8,12 @@ body:
     attributes:
       value: |
         제목을 `[TYPE] 이슈 제목을 여기에 작성` 형식에 맞게 작성해주세요.
+        예시: `[BUG] 앱이 크래시가 발생하는 문제`
 
-  - type: input
-    id: dummy
+  - type: textarea
+    id: description
     attributes:
-      label: (선택 사항) 본문 내용이 있다면 작성해주세요
-      placeholder: 내용이 없다면 비워두셔도 됩니다.
+      label: 이슈 내용
+      placeholder: 이슈에 대한 상세한 설명을 작성해주세요.
     validations:
-      required: false
+      required: true
