@@ -8,9 +8,3 @@ body:
     attributes:
       value: |
         제목을 `[TYPE] 이슈 제목을 여기에 작성` 형식에 맞게 작성해주세요.
-
-  - type: input
-    id: dummy
-    attributes:
-      label: (선택 사항) 본문 내용이 있다면 작성해주세요
-      placeholder: 내용이 없다면 비워두셔도 됩니다
