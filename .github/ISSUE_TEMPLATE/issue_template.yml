@@ -1,5 +1,9 @@
 name: Custom Title Format
-description: 이슈 제목 형식을 지켜주세요
+description: 제목 형식만 안내하는 템플릿
 title: "[TYPE] 이슈 제목을 여기에 작성"
 labels: []
-body: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제목을 "[TYPE] 이슈 제목을 여기에 작성" 형식에 맞게 작성해주세요.
