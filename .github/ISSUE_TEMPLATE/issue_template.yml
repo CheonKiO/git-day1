@@ -1,4 +1,5 @@
-name: REVIEW
-description: 
-title: "[BUG] "
-
+name: Custom Title Format
+description: 이슈 제목 형식을 지켜주세요
+title: "[TYPE] 이슈 제목을 여기에 작성"
+labels: []
+body: []
