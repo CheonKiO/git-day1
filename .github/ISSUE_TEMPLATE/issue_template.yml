@@ -1,16 +1,4 @@
-name: Bug Report
-description: 버그를 신고할 때 사용하세요
+name: REVIEW
+description: 
 title: "[BUG] "
-labels: [bug]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 🐞 버그 설명
-  - type: input
-    id: what-happened
-    attributes:
-      label: 어떤 문제가 발생했나요?
-      placeholder: 자세히 설명해주세요
-    validations:
-      required: true
+
